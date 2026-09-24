@@ -4,6 +4,7 @@ I'm Abrian Jackson-Wright, and I am currently pursuing a User Experience and Int
 ## Topic
 My multi-page website will serve as a portfolio of my projects and experiences.
 ## AI Use
+- It uses AI to explain concepts that are hard to understand or just for explanations. 
 - ChatGPT-4 — generated initial scaffold for `get_zodiac_sign()` from
   a prompt describing the Western zodiac date ranges. Reviewed and
   modified to use snake_case and to handle Feb 29.
