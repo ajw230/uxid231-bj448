@@ -1,4 +1,3 @@
-# uxid231-bj448
 # Abrian Jackson-Wright
 ## About
 I'm Abrian Jackson-Wright, and I am in my 2nd year, pursuing a User Experience and Interaction Design Degree at Drexel University. My ambition is to create creative, accessible user experiences, both online and offline. 
