@@ -4,4 +4,4 @@ I'm Abrian Jackson-Wright, and I am currently pursuing a User Experience and Int
 ## Topic
 My multi-page website will serve as a portfolio of my projects and experiences.
 ## AI Use
-- It uses AI to explain concepts that are hard to understand or just for explanations. 
+- Uses AI to explain concepts that are hard to understand or just for explanations. 
