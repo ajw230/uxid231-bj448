@@ -1,0 +1,54 @@
+/* type selectors */
+body {
+    /* body selector for whole page */
+    
+}
+
+h1 {
+    /* h1 selector for main headings */
+    
+}   
+
+h2 {
+    /* h2 selector for subheadings */
+    
+}
+
+/* combinator selectors */
+
+main p {
+   
+    /* main p selector for paragraphs within the main content */
+}
+
+nav a {
+    /* nav a selector for links within the navigation */
+}
+
+footer p {
+    /* footer p selector for paragraphs within the footer */
+}
+
+
+/* class selectors */
+
+.profile-image {
+    /* profile-image selector for the profile image */
+}
+.introduction {
+    /* introduction section on home page */
+}
+
+/* id selectors */
+
+#hero {
+    /* header with my name */
+}
+
+nav a:hover {
+    /* links within the navigation when hovered */
+}
+
+nav a:focus-visible {
+    /* links within the navigation when focused */
+}
