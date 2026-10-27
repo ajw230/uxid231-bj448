@@ -1,32 +1,62 @@
+/* Design Tokens */
+:root {
+    --background-color: #FAF9F6;
+    --text-color: #242424;
+    --primary-color: #374151;
+    --secondary-color: #4B5563;
+    --tertiary-color: #EDEAE4;
+    --link-color: #374151;
+    --hover-color: #476083;
+    --focus-color: #111827;
+};
+
+
 /* type selectors */
 body {
     /* body selector for whole page */
-    
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 h1 {
     /* h1 selector for main headings */
-    
+    color: var(--primary-color);
 }   
 
 h2 {
     /* h2 selector for subheadings */
-    
+    color: var(--secondary-color);
 }
 
 /* combinator selectors */
 
 main p {
-   
     /* main p selector for paragraphs within the main content */
+    color: var(--text-color);
 }
 
 nav a {
     /* nav a selector for links within the navigation */
+   color: var(--link-color);
+}
+
+/* interactive states */
+
+nav a:hover {
+    /* links within the navigation when hovered */
+    color: var(--hover-color);
+}
+
+nav a:focus-visible {
+    /* links within the navigation when focused */
+    color: var(--focus-color);
+    outline: 2px solid var(--focus-color);
+    outline-offset: 2px;
 }
 
 footer p {
     /* footer p selector for paragraphs within the footer */
+    color: var(--text-color);
 }
 
 
@@ -36,21 +66,13 @@ footer p {
     /* profile-image selector for the profile image */
 }
 .introduction {
-    /* introduction section on home page */
+ /* introduction section on home page */
+ background-color: var(--tertiary-color);
 }
 
 /* id selectors */
 
 #hero {
     /* header with my name */
-}
-
-/* interactive states */
-
-nav a:hover {
-    /* links within the navigation when hovered */
-}
-
-nav a:focus-visible {
-    /* links within the navigation when focused */
+    color: var(--secondary-color);
 }
