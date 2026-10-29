@@ -62,9 +62,6 @@ footer p {
 
 /* class selectors */
 
-.profile-image {
-    /* profile-image selector for the profile image */
-}
 .introduction {
  /* introduction section on home page */
  background-color: var(--tertiary-color);
