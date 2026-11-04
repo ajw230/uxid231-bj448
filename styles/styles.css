@@ -8,24 +8,47 @@
     --link-color: #374151;
     --hover-color: #476083;
     --focus-color: #111827;
-};
 
+    --font-smaller: 0.875rem;
+    --font-body: 1rem;
+    --font-h2: 1.2rem;
+    --font-h1: 2.5rem;
+}
 
 /* type selectors */
 body {
     /* body selector for whole page */
     background-color: var(--background-color);
     color: var(--text-color);
+    font-size: var(--font-body);
+    line-height: 1.4;
+    font-weight: 400;
+
+    font-family:
+	    system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		sans-serif;
 }
 
 h1 {
     /* h1 selector for main headings */
     color: var(--primary-color);
+    font-size: var(--font-h1);
+    font-weight: 700;
+    line-height: 1.4;
+
 }   
 
 h2 {
     /* h2 selector for subheadings */
     color: var(--secondary-color);
+    font-size: var(--font-h2);
+    font-weight: 700;
+    line-height: 1.4;
+
 }
 
 /* combinator selectors */
@@ -33,6 +56,8 @@ h2 {
 main p {
     /* main p selector for paragraphs within the main content */
     color: var(--text-color);
+    font-size: var(--font-body);
+    max-width: 60ch;
 }
 
 nav a {
@@ -45,18 +70,25 @@ nav a {
 nav a:hover {
     /* links within the navigation when hovered */
     color: var(--hover-color);
+    font-size: var(--font-body);
 }
 
 nav a:focus-visible {
     /* links within the navigation when focused */
     color: var(--focus-color);
+    font-size: var(--font-body);
+    line-height: 1.3;
     outline: 2px solid var(--focus-color);
     outline-offset: 2px;
+    font-weight: 400;
 }
 
 footer p {
     /* footer p selector for paragraphs within the footer */
     color: var(--text-color);
+    font-size: var(--font-smaller);
+    line-height: 1.2;
+    font-weight: 400;
 }
 
 
@@ -72,4 +104,7 @@ footer p {
 #hero {
     /* header with my name */
     color: var(--secondary-color);
+    font-size: var(--font-h2);
+    line-height: 1.4;
+    font-weight: 700;
 }
