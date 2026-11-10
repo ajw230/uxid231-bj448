@@ -5,3 +5,4 @@ I'm Abrian Jackson-Wright, and I am currently pursuing a User Experience and Int
 My multi-page website will serve as a portfolio of my projects and experiences.
 ## AI Use
 - Uses AI to explain concepts that are hard to understand or just for explanations. 
+- I looked up how to put more space around my button using display: inline-block that allows you to but elements side by side
