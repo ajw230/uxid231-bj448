@@ -171,7 +171,7 @@ footer p {
     /* header with my name */
     color: var( --extra-color);
     font-size: var(--font-h2);
-    line-height: 0.5;
+    line-height: 1.0;
     font-weight: 400;
     margin: 0.5rem;
     padding: 0.4rem;
