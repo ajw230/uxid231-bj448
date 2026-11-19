@@ -154,6 +154,9 @@ footer p {
  background-color: var(--tertiary-color);
  padding: 0.5rem;
  margin: 0.5rem;
+ max-width: 60ch;
+ height: auto;
+
 
 
     
@@ -163,6 +166,8 @@ footer p {
  background-color: var(--secondary-color);
  margin-inline: 1.5rem;
     padding: 1rem;
+    max-width: 30ch;
+    height: auto;
 }
 
 /* id selectors */
